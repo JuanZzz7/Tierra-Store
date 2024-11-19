@@ -1,0 +1,231 @@
+/* Estilo para la sección de Login */
+.login-section {
+    padding: 4rem 7%; /* Mantiene el espaciado como las demás secciones */
+    text-align: center;
+}
+
+.login-section .form-container {
+    max-width: 40rem;
+    margin: 0 auto;
+    background: var(--black); /* Fondo oscuro igual a otras secciones */
+    padding: 3rem;
+    border: 1px solid var(--main-color); /* Bordes consistentes */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.login-section .form-container h1 {
+    font-size: 4rem; /* Tamaño del título similar a .heading */
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.login-section .form-container .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Espaciado entre elementos */
+}
+
+.login-section .form-container .login-form .inputBox {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1); /* Fondo translúcido */
+    border: 1px solid var(--main-color); /* Bordes iguales al resto de la página */
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.login-section .form-container .login-form .inputBox span {
+    color: var(--main-color); /* Íconos del color principal */
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.login-section .form-container .login-form .inputBox input {
+    width: 100%;
+    background: none; /* Fondo transparente */
+    border: none; /* Sin bordes */
+    color: #fff;
+    font-size: 1.6rem;
+    outline: none;
+    padding: 0.5rem;
+}
+
+.login-section .form-container .login-form .btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-section .form-container .login-form .btn:hover {
+    background: #fff; /* Cambia a blanco */
+    color: var(--main-color); /* Texto del color principal */
+    letter-spacing: 0.2rem;
+}
+
+.login-section .form-container p {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.login-section .form-container p a {
+    color: var(--main-color); /* Enlaces del color principal */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.login-section .form-container p a:hover {
+    color: #fff; /* Cambia a blanco al pasar el mouse */
+}
+
+/* Centrar el contenedor de login */
+.home-coffee {
+    min-height: 100vh; /* Altura completa de la pantalla */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center;
+    background: url(../img/home-img.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-coffee .content {
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro translúcido */
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 40rem;
+    width: 100%;
+}
+
+.home-coffee h3 {
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.login-container {
+    margin-top: 2rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.login-form .inputBox {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.login-form .inputBox span {
+    color: var(--main-color);
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.login-form .inputBox input {
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.6rem;
+    outline: none;
+    padding: 0.5rem;
+}
+
+.login-form .btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-form .btn:hover {
+    background: #fff;
+    color: var(--main-color);
+    letter-spacing: 0.2rem;
+}
+
+/* Ajustes para los contenedores de login */
+.login-container {
+    margin-top: 2rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; /* Más espacio entre los contenedores */
+}
+
+.user-box,
+.password-box {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente los campos */
+    background: rgba(255, 255, 255, 0.1); /* Fondo translúcido */
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    padding: 1rem;
+    width: 80%; /* Ajusta el ancho de los campos */
+    margin: 0 auto; /* Centra los contenedores */
+}
+
+.user-box span,
+.password-box span {
+    color: var(--main-color); /* Íconos del color principal */
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.user-box input,
+.password-box input {
+    width: 100%;
+    background: none; /* Fondo transparente */
+    border: none; /* Sin bordes */
+    color: #fff;
+    font-size: 1.6rem;
+    outline: none;
+    padding: 0.5rem;
+}
+
+/* Botón Iniciar Sesión */
+.button-container {
+    margin-top: 2rem; /* Más separación entre el último campo y el botón */
+    text-align: center;
+}
+
+.button-container .btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-container .btn:hover {
+    background: #fff; /* Cambia a blanco */
+    color: var(--main-color); /* Texto del color principal */
+    letter-spacing: 0.2rem;
+}
